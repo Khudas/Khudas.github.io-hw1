@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <div>
+    <a href="index.html">Повернутись</a>
+  </div>
+  <form action="" method="get">
+
+    <fieldset>
+      <legend>Обратная связь</legend>
+
+      <div class="basic">
+        <label for="name">Им'я</label>
+        <input class="fio" name="name" id="name" type="text" placeholder="Им'я">
+      </div>
+
+      <div class="basic">
+        <label for="tel">Телефон</label>
+        <input name="tel" id="tel" type="tel" placeholder="Телефон">
+      </div>
+
+      <div class="basic">
+        <label for="email">email</label>
+        <input name="email" id="email" type="email" placeholder="email">
+      </div>
+
+      <div class="selection">
+        <input name="gender" id="gender_male" type="radio" value="male">
+        <label for="gender_male">Чоловічій </label>
+      </div>
+
+      <div class="selection">
+        <input name="gender" id="gender_female" type="radio" value="female">
+        <label for="gender_female">Жіночій</label>
+      </div>
+
+      <div>
+        <p>Оберіть улюблену кухню</p>
+
+        <div class="selection">
+          <input name="uk" id="uk" type="checkbox" value="uk">
+          <label for="uk">Українська</label>
+        </div>
+      </div>
+
+      <div class="selection">
+        <input name="jp" id="jp" type="checkbox" value="jp">
+        <label for="jp">Японська</label>
+      </div>
+
+      <div class="selection">
+        <input name="usa" id="usa" type="checkbox" value="usa">
+        <label for="usa">Американська</label>
+      </div>
+
+      <div class="selection">
+        <input name="fr" id="fr" type="checkbox" value="fr">
+        <label for="fr">Французька</label>
+      </div>
+      <div class="basic">
+        <label for="txt">Задайте питання</label>
+        <textarea class="fio" name="txt" id="txt" cols="30" rows="10" placeholder="Задайте питання"></textarea>
+      </div>
+
+      <div class="basic">
+        <button class="btn" type="submit">Надіслати</button>
+      </div>
+
+      <div class="basic">
+        <button class="btn" type="reset">Очистити</button>
+      </div>
+
+    </fieldset>
+  </form>
+</body>
+
+</html>
